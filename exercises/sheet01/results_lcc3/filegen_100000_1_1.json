@@ -1,0 +1,36 @@
+{
+    "command": "/home/cb76/cb761223/small_samples/build/filegen 100000 1 1 1",
+    "number_of_runs": 3,
+    "runs": [
+        {
+            "real": 61.97,
+            "user": 1.03,
+            "sys": 12.41,
+            "max_mem": 1428
+        },
+        {
+            "real": 449.44,
+            "user": 1.41,
+            "sys": 18.24,
+            "max_mem": 1532
+        },
+        {
+            "real": 444.86,
+            "user": 1.46,
+            "sys": 18.56,
+            "max_mem": 1524
+        }
+    ],
+    "mean": {
+        "real": 318.757,
+        "user": 1.300,
+        "sys": 16.403,
+        "max_mem": 1494.667
+    },
+    "variance": {
+        "real": 32973.192,
+        "user": 0.037,
+        "sys": 7.991,
+        "max_mem": 2232.889
+    }
+}

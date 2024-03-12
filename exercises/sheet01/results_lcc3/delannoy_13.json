@@ -1,0 +1,48 @@
+{
+    "command": "/home/cb76/cb761223/small_samples/build/delannoy 13",
+    "number_of_runs": 5,
+    "runs": [
+        {
+            "real": 3.38,
+            "user": 3.37,
+            "sys": 0.00,
+            "max_mem": 1376
+        },
+        {
+            "real": 3.38,
+            "user": 3.37,
+            "sys": 0.00,
+            "max_mem": 1372
+        },
+        {
+            "real": 3.38,
+            "user": 3.38,
+            "sys": 0.00,
+            "max_mem": 1408
+        },
+        {
+            "real": 3.38,
+            "user": 3.38,
+            "sys": 0.00,
+            "max_mem": 1324
+        },
+        {
+            "real": 3.37,
+            "user": 3.36,
+            "sys": 0.00,
+            "max_mem": 1324
+        }
+    ],
+    "mean": {
+        "real": 3.378,
+        "user": 3.372,
+        "sys": 0.000,
+        "max_mem": 1360.800
+    },
+    "variance": {
+        "real": 0.000,
+        "user": 0.000,
+        "sys": 0.000,
+        "max_mem": 1058.560
+    }
+}
