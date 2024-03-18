@@ -1,0 +1,49 @@
+{
+    "command": "../../small_samples/build/filegen 1000 100 10 10",
+    "number_of_runs_target": 5,
+    "number_of_runs_actual": 5,
+    "runs": [
+        {
+            "real": 1.44,
+            "user": 0.15,
+            "sys": 1.29,
+            "max_mem": 1484.0
+        },
+        {
+            "real": 2.07,
+            "user": 0.29,
+            "sys": 1.77,
+            "max_mem": 1544.0
+        },
+        {
+            "real": 2.47,
+            "user": 0.24,
+            "sys": 2.22,
+            "max_mem": 1484.0
+        },
+        {
+            "real": 2.72,
+            "user": 0.28,
+            "sys": 2.42,
+            "max_mem": 1572.0
+        },
+        {
+            "real": 2.61,
+            "user": 0.2,
+            "sys": 2.39,
+            "max_mem": 1548.0
+        }
+    ],
+    "mean": {
+        "real": 2.262,
+        "user": 0.232,
+        "sys": 2.018,
+        "max_mem": 1526.4
+    },
+    "variance": {
+        "real": 0.2717,
+        "user": 0.0034,
+        "sys": 0.2331,
+        "max_mem": 1612.8
+    }
+}

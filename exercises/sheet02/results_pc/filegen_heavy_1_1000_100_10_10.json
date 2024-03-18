@@ -1,0 +1,109 @@
+{
+    "command": "../../small_samples/build/filegen 1000 100 10 10",
+    "number_of_runs_target": 5,
+    "number_of_runs_actual": 15,
+    "runs": [
+        {
+            "real": 1.51,
+            "user": 0.18,
+            "sys": 1.31,
+            "max_mem": 1480.0
+        },
+        {
+            "real": 2.13,
+            "user": 0.27,
+            "sys": 1.86,
+            "max_mem": 1552.0
+        },
+        {
+            "real": 2.45,
+            "user": 0.29,
+            "sys": 2.16,
+            "max_mem": 1512.0
+        },
+        {
+            "real": 2.44,
+            "user": 0.24,
+            "sys": 2.19,
+            "max_mem": 1480.0
+        },
+        {
+            "real": 2.46,
+            "user": 0.15,
+            "sys": 2.29,
+            "max_mem": 1568.0
+        },
+        {
+            "real": 2.6,
+            "user": 0.23,
+            "sys": 2.36,
+            "max_mem": 1476.0
+        },
+        {
+            "real": 2.47,
+            "user": 0.24,
+            "sys": 2.22,
+            "max_mem": 1548.0
+        },
+        {
+            "real": 2.5,
+            "user": 0.25,
+            "sys": 2.24,
+            "max_mem": 1480.0
+        },
+        {
+            "real": 2.53,
+            "user": 0.17,
+            "sys": 2.35,
+            "max_mem": 1464.0
+        },
+        {
+            "real": 2.46,
+            "user": 0.18,
+            "sys": 2.26,
+            "max_mem": 1556.0
+        },
+        {
+            "real": 3.57,
+            "user": 0.16,
+            "sys": 2.34,
+            "max_mem": 1548.0
+        },
+        {
+            "real": 2.43,
+            "user": 0.18,
+            "sys": 2.24,
+            "max_mem": 1640.0
+        },
+        {
+            "real": 2.52,
+            "user": 0.18,
+            "sys": 2.34,
+            "max_mem": 1516.0
+        },
+        {
+            "real": 2.74,
+            "user": 0.32,
+            "sys": 2.23,
+            "max_mem": 1528.0
+        },
+        {
+            "real": 2.52,
+            "user": 0.23,
+            "sys": 2.25,
+            "max_mem": 1520.0
+        }
+    ],
+    "mean": {
+        "real": 2.4887,
+        "user": 0.218,
+        "sys": 2.176,
+        "max_mem": 1524.5333
+    },
+    "variance": {
+        "real": 0.1675,
+        "user": 0.0026,
+        "sys": 0.0719,
+        "max_mem": 2164.2667
+    }
+}
