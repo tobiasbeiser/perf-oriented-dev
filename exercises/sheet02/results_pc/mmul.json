@@ -1,0 +1,49 @@
+{
+    "command": "../../small_samples/build/mmul",
+    "number_of_runs_target": 5,
+    "number_of_runs_actual": 5,
+    "runs": [
+        {
+            "real": 1.23,
+            "user": 1.23,
+            "sys": 0.0,
+            "max_mem": 24508.0
+        },
+        {
+            "real": 1.27,
+            "user": 1.26,
+            "sys": 0.0,
+            "max_mem": 24472.0
+        },
+        {
+            "real": 1.21,
+            "user": 1.21,
+            "sys": 0.0,
+            "max_mem": 24484.0
+        },
+        {
+            "real": 1.25,
+            "user": 1.25,
+            "sys": 0.0,
+            "max_mem": 24540.0
+        },
+        {
+            "real": 1.24,
+            "user": 1.24,
+            "sys": 0.0,
+            "max_mem": 24508.0
+        }
+    ],
+    "mean": {
+        "real": 1.24,
+        "user": 1.238,
+        "sys": 0.0,
+        "max_mem": 24502.4
+    },
+    "variance": {
+        "real": 0.0005,
+        "user": 0.0004,
+        "sys": 0.0,
+        "max_mem": 684.8
+    }
+}
