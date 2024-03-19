@@ -38,29 +38,31 @@ def get_json_from_benchmark_result(benchmark_result):
 
 
 def measure_program(program, job_name,quiet_mode):
-    temp_output_path = "./{}.tmp".format(job_name)
+    temp_output_path = os.path.abspath("./{}.tmp".format(job_name))
     program_parts = program.split(" ")
     executable = program_parts[0]
     arguments = program_parts[1:]
-    program_benchmark = ["/usr/bin/time", "-f", '%e;%U;%S;%M', "-o", temp_output_path, executable] + arguments
-    if DEBUG:
-        print("Run {}: {}".format(job_name, " ".join(program_benchmark)))
-
-    if socket.gethostname() == "login.lcc3.uibk.ac.at":
+    # program_benchmark = ["/usr/bin/time", "-f", "%e;%U;%S;%M", "-o", temp_output_path, executable] + arguments
+    program_benchmark = ["/usr/bin/time", "-f", "%e;%U;%S;%M", executable] + arguments
+    
+    
+    if socket.gethostname() == "login.lcc3.uibk.ac.at" and False: # Currently not working when using subprocess
+        lcc3_benchmark = ["sbatch", "--partition=lva", "--job-name={}".format(job_name), "--output=/dev/null" if quiet_mode else "--output=output.log", "--error=/dev/null" if quiet_mode else "--error=error.log", "--ntasks=1", "--ntasks-per-node=1", "--exclusive", "-W", "--wrap='{}'".format(" ".join(program_benchmark))]
+        if DEBUG:
+            print("Run {}: {}".format(job_name, " ".join(lcc3_benchmark)))
         process = subprocess.Popen(
-            ["sbatch", "--partition=lva", "--job-name={}".format(job_name), "--output=/dev/null", "--error=/dev/null", "--ntasks=1", "--ntasks-per-node=1", "--exclusive", "-W", "--wrap={}".format(" ".join(program_benchmark))], stdout=subprocess.PIPE)
+            lcc3_benchmark, stdout=subprocess.PIPE)        
     else:
+        if DEBUG:
+            print("Run {}: {}".format(job_name, " ".join(program_benchmark)))
         process = subprocess.Popen(
-            program_benchmark, stderr=subprocess.PIPE, stdout=subprocess.DEVNULL if quiet_mode else None)
+            program_benchmark, stderr=subprocess.PIPE, stdout=subprocess.DEVNULL if quiet_mode else subprocess.PIPE)
 
     _, stderr = process.communicate()
-    with open(temp_output_path, 'r') as f:
-        time_res = f.readline().strip()
-        arr_result = time_res.split(';')
-        benchmark_result = BenchmarkResult(float(arr_result[0]), float(
-            arr_result[1]), float(arr_result[2]), float(arr_result[3]))
-
-    os.remove(temp_output_path)
+    time_res = stderr.decode('ascii')
+    arr_result = time_res.split(';')
+    benchmark_result = BenchmarkResult(float(arr_result[0]), float(
+    arr_result[1]), float(arr_result[2]), float(arr_result[3]))
     return benchmark_result
 
 
@@ -132,8 +134,9 @@ def experiment(number_runs, number_runs_max, program_name, program, quiet_mode):
         results.append(benchmark_result)
         json_output["runs"].append(
             get_json_from_benchmark_result(benchmark_result))
-        if n > number_runs_max:
+        if n >= number_runs_max:
             print("Maximum number of runs reached.")
+            json_output["number_of_runs_actual"] = n
             break
         if (number_runs) <= n and check_if_mean_variance_stable(results):
             json_output["number_of_runs_actual"] = n
