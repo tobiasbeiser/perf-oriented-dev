@@ -19,14 +19,14 @@ PC:
 !["No load mmul pc"](./results_pc/mmul.png)
 
 LCC3:
-<!-- !["No load mmul lcc3"](./results_pc/mmul.png) -->
+!["No load mmul lcc3"](./results_lcc3/mmul.png)
 
 #### with load
 PC: 
 !["load mmul pc"](./results_pc/mmul_heavy.png)
 
 LCC3:
-<!-- !["No load mmul lcc3"](./results_pc/mmul.png) -->
+!["load mmul lcc3"](./results_lcc3/mmul_heavy.png)
 
 
 
@@ -66,3 +66,8 @@ PC:
 
 PC:
 !["FiveInstances"](./results_pc/filegen_heavy_5_1000_100_10_10.png)
+
+
+### LCC3
+Sadly I was unable to test filegen on the LCC3 cluster as it randomly segfaulted (depending on which cluster the job was assigned to) when generating too many files. For reference: I used 100(dirs) 100(files) 10(min size) 10(max size) as parameters. I also set /tmp as workdir for the job with the --chdir flag and upon further inspection, it seems that the storage on the nodes seems to be full.  
+Also when executing the program with the stated parameters, the runs that went through took about 80s. For comparison, the same parameters on my local system took about 0.2s
