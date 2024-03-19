@@ -9,4 +9,4 @@ else()
   add_compile_options(-Wall -Wextra -Wpedantic -Werror)
 endif()
 
-add_executable(io_loadgen io_loadgen.c)
+add_executable(io_loadgen io_loadgen/io_loadgen.c)
