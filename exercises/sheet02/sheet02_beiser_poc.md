@@ -1,4 +1,4 @@
-# Perfomance Oriented Computing - 01 - Beiser Tobias
+# Perfomance Oriented Computing - 02 - Beiser Tobias
 ## A) External CPU load
 The `loadgen` program generates CPU load based on a loaded profile. The more loadgen processes we spawn with `exec_with_workstation_heavy.sh` the more CPU usage we get and therefore increase the runtime of all programs. This also means, that the measurements increase in randomness.  
 
