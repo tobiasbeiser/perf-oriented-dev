@@ -35,6 +35,8 @@
 #include "header.h"
 #include "work_lhs.h"
 #include "timers.h"
+#include "../tracy/public/tracy/TracyC.h"
+
 
 //---------------------------------------------------------------------
 // 

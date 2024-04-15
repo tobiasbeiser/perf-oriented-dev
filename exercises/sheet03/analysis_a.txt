@@ -1,0 +1,54 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 19.24     23.83    23.83                             binvcrhs
+ 17.56     45.57    21.74                             compute_rhs
+ 16.50     66.01    20.43                             z_solve
+ 16.17     86.04    20.03                             y_solve
+ 15.40    105.11    19.07                             x_solve
+ 10.00    117.49    12.38                             matmul_sub
+  3.28    121.55     4.06                             matvec_sub
+  0.91    122.68     1.13                             add
+  0.48    123.27     0.59                             lhsinit
+  0.19    123.50     0.23                             exact_solution
+  0.15    123.68     0.18                             binvrhs
+  0.07    123.77     0.09                             exact_rhs
+  0.02    123.79     0.02                             set_constants
+  0.01    123.80     0.01                             error_norm
+  0.01    123.81     0.01                             initialize
+  0.01    123.82     0.01                             rhs_norm
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
