@@ -1,0 +1,74 @@
+
+HPCS SSCA Graph Analysis Benchmark v2.2
+Running...
+
+SCALE: 17
+
+Scalable Data Generator -- genScalData() beginning execution...
+
+	genScalData() completed execution
+
+Kernel 1 -- computeGraph() beginning execution...
+
+	computeGraph() completed execution
+
+Kernel 2 -- getStartLists() beginning execution...
+
+	getStartLists() completed execution
+
+Max. int wt. list size is 7
+
+Kernel 3 -- findSubGraphs() beginning execution...
+Search from <13182, 109675>, number of vertices visited: 5438
+Search from <32829, 100045>, number of vertices visited: 127
+Search from <33409, 54807>, number of vertices visited: 12946
+Search from <36635, 112892>, number of vertices visited: 1870
+Search from <37070, 31191>, number of vertices visited: 71218
+Search from <78658, 52103>, number of vertices visited: 3486
+Search from <125999, 88322>, number of vertices visited: 6357
+
+	findSubGraphs() completed execution
+
+Kernel 4 -- betweennessCentrality() beginning execution...
+
+ Performance counter stats for '/home/cb76/cb761223/larger_samples/ssca2/build/ssca2 17':
+
+     4,342,365,438      L1-dcache-load-misses:u   #    9.28% of all L1-dcache accesses  (10.71%)
+    46,803,437,248      L1-dcache-loads:u                                             (14.28%)
+       430,500,471      L1-dcache-prefetch-misses:u                                     (14.28%)
+           164,032      L1-dcache-prefetches:u                                        (14.29%)
+       659,418,783      L1-dcache-store-misses:u                                      (14.29%)
+     7,445,528,352      L1-dcache-stores:u                                            (14.29%)
+         1,536,428      L1-icache-load-misses:u   #    0.00% of all L1-icache accesses  (14.29%)
+    59,736,473,434      L1-icache-loads:u                                             (14.29%)
+       295,977,744      LLC-load-misses:u         #   10.50% of all LL-cache accesses  (14.29%)
+     2,817,505,062      LLC-loads:u                                                   (14.29%)
+         6,282,679      LLC-prefetch-misses:u                                         (7.14%)
+        12,287,812      LLC-prefetches:u                                              (7.14%)
+        41,878,545      LLC-store-misses:u                                            (7.14%)
+     1,912,280,637      LLC-stores:u                                                  (7.14%)
+     9,013,143,770      branch-load-misses:u                                          (10.72%)
+     6,822,867,462      branch-loads:u                                                (14.29%)
+     1,083,509,643      dTLB-load-misses:u        #    2.32% of all dTLB cache accesses  (14.29%)
+    46,681,816,878      dTLB-loads:u                                                  (14.29%)
+       268,776,570      dTLB-store-misses:u                                           (14.29%)
+     7,443,920,203      dTLB-stores:u                                                 (14.29%)
+           186,305      iTLB-load-misses:u        #    0.00% of all iTLB cache accesses  (14.29%)
+   106,428,731,493      iTLB-loads:u                                                  (14.28%)
+                 7      node-load-misses:u                                            (14.28%)
+       295,418,274      node-loads:u                                                  (14.28%)
+               420      node-prefetch-misses:u                                        (7.14%)
+         6,316,097      node-prefetches:u                                             (7.14%)
+                 0      node-store-misses:u                                           (7.14%)
+        41,741,424      node-stores:u                                                 (7.14%)
+
+      51.127900693 seconds time elapsed
+
+      50.493929000 seconds user
+       0.013822000 seconds sys
+
+
+
+real	0m51.183s
+user	0m50.515s
+sys	0m0.025s
