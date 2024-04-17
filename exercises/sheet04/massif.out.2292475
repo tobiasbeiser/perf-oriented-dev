@@ -1,0 +1,702 @@
+desc: (none)
+cmd: /home/cb76/cb761223/larger_samples/ssca2/build/ssca2 17
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=240949
+mem_heap_B=32
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=241040
+mem_heap_B=8388640
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=242092
+mem_heap_B=8393752
+mem_heap_extra_B=8104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=256238
+mem_heap_B=8393756
+mem_heap_extra_B=8124
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=256591
+mem_heap_B=8409180
+mem_heap_extra_B=8196
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=7213388
+mem_heap_B=8409180
+mem_heap_extra_B=8196
+mem_stacks_B=0
+heap_tree=detailed
+n3: 8409180 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4194304 0x402C9B: genScalData (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400C62: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x402CB3: genScalData (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400C62: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n0: 20572 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=7213388
+mem_heap_B=8409176
+mem_heap_extra_B=8176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=8012055
+mem_heap_B=8404064
+mem_heap_extra_B=8160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=8012093
+mem_heap_B=8404056
+mem_heap_extra_B=8144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=18010917648
+mem_heap_B=8928344
+mem_heap_extra_B=8152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=18083053431
+mem_heap_B=8928344
+mem_heap_extra_B=8152
+mem_stacks_B=0
+heap_tree=detailed
+n4: 8928344 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4194304 0x402C9B: genScalData (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400C62: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x402CB3: genScalData (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400C62: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 524288 0x4030B4: genScalData (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 524288 0x400C62: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n0: 15448 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=12
+#-----------
+time=18083053467
+mem_heap_B=12598360
+mem_heap_extra_B=12184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=18308867255
+mem_heap_B=12598360
+mem_heap_extra_B=12184
+mem_stacks_B=0
+heap_tree=detailed
+n4: 12598360 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4194304 0x402C9B: genScalData (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400C62: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x402CB3: genScalData (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400C62: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x403283: genScalData (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400C62: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n0: 15448 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=18308868071
+mem_heap_B=16777280
+mem_heap_extra_B=16176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=18308868839
+mem_heap_B=17301568
+mem_heap_extra_B=16184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=18336131867
+mem_heap_B=17825860
+mem_heap_extra_B=16204
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=18336131907
+mem_heap_B=17825864
+mem_heap_extra_B=16224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=18339408770
+mem_heap_B=17825864
+mem_heap_extra_B=16224
+mem_stacks_B=0
+heap_tree=detailed
+n7: 17825864 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4194304 0x401E62: computeGraph (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400CC8: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x402C9B: genScalData (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400C62: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x402CB3: genScalData (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400C62: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x403283: genScalData (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400C62: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 524292 0x401F36: computeGraph (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 524292 0x400CC8: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 524288 0x401E98: computeGraph (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 524288 0x400CC8: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n0: 68 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=19
+#-----------
+time=18339408876
+mem_heap_B=25690180
+mem_heap_extra_B=24276
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=18393934873
+mem_heap_B=25690180
+mem_heap_extra_B=24276
+mem_stacks_B=0
+heap_tree=peak
+n8: 25690180 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4194304 0x401E62: computeGraph (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400CC8: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x401F95: computeGraph (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400CC8: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x401FAA: computeGraph (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400CC8: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x402C9B: genScalData (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400C62: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x402CB3: genScalData (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400C62: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x403283: genScalData (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400C62: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 524292 0x401F36: computeGraph (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 524292 0x400CC8: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n0: 64 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=18393935775
+mem_heap_B=8928952
+mem_heap_extra_B=8160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=18439942735
+mem_heap_B=8928956
+mem_heap_extra_B=8180
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=18439943679
+mem_heap_B=8913044
+mem_heap_extra_B=8116
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=18439945304
+mem_heap_B=9437336
+mem_heap_extra_B=8136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=18439945625
+mem_heap_B=10092728
+mem_heap_extra_B=8184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=18440442794
+mem_heap_B=9961656
+mem_heap_extra_B=8176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=18440442852
+mem_heap_B=10092728
+mem_heap_extra_B=8184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=18440455355
+mem_heap_B=9961656
+mem_heap_extra_B=8176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=18440455413
+mem_heap_B=10092728
+mem_heap_extra_B=8184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=18441908379
+mem_heap_B=9961656
+mem_heap_extra_B=8176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=18441908437
+mem_heap_B=10092728
+mem_heap_extra_B=8184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=18442064640
+mem_heap_B=9961656
+mem_heap_extra_B=8176
+mem_stacks_B=0
+heap_tree=detailed
+n6: 9961656 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4194304 0x401F95: computeGraph (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400CC8: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x401FAA: computeGraph (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400CC8: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 524292 0x401F36: computeGraph (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 524292 0x400CC8: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 524292 0x40217A: findSubGraphs (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 524292 0x400DDA: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 524288 0x4021B5: findSubGraphs (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 524288 0x400DDA: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n0: 176 in 20 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=18442064698
+mem_heap_B=10092728
+mem_heap_extra_B=8184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=18460772624
+mem_heap_B=9961656
+mem_heap_extra_B=8176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=18460772682
+mem_heap_B=10092728
+mem_heap_extra_B=8184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=18461072844
+mem_heap_B=9961656
+mem_heap_extra_B=8176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=18461072902
+mem_heap_B=10092728
+mem_heap_extra_B=8184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=18461673646
+mem_heap_B=9568436
+mem_heap_extra_B=8164
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=18461674661
+mem_heap_B=10490908
+mem_heap_extra_B=8140
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=18461688807
+mem_heap_B=10490912
+mem_heap_extra_B=8176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=18461689160
+mem_heap_B=10506336
+mem_heap_extra_B=8248
+mem_stacks_B=0
+heap_tree=detailed
+n6: 10506336 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4194304 0x401F95: computeGraph (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400CC8: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x401FAA: computeGraph (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400CC8: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n0: 1048576 0x400E4F: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 524292 0x401F36: computeGraph (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 524292 0x400CC8: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 524288 0x400F57: betweennessCentrality (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 524288 0x400E66: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n0: 20572 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=42
+#-----------
+time=18468645270
+mem_heap_B=10506332
+mem_heap_extra_B=8212
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=18469443937
+mem_heap_B=10501220
+mem_heap_extra_B=8196
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=18469443975
+mem_heap_B=10501212
+mem_heap_extra_B=8180
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=18501733998
+mem_heap_B=12598364
+mem_heap_extra_B=8188
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=18501734148
+mem_heap_B=13646952
+mem_heap_extra_B=8264
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=18525982538
+mem_heap_B=17841256
+mem_heap_extra_B=12304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=18531356535
+mem_heap_B=17316964
+mem_heap_extra_B=12284
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=18531356777
+mem_heap_B=19938396
+mem_heap_extra_B=12260
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=18531356819
+mem_heap_B=19938596
+mem_heap_extra_B=12276
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=18531356859
+mem_heap_B=19938796
+mem_heap_extra_B=12292
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=18531356900
+mem_heap_B=19938804
+mem_heap_extra_B=12324
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=18531356945
+mem_heap_B=20987380
+mem_heap_extra_B=12332
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=106779198574
+mem_heap_B=19938804
+mem_heap_extra_B=12324
+mem_stacks_B=0
+heap_tree=detailed
+n12: 19938804 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4194304 0x4011CA: betweennessCentrality (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400E66: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x401F95: computeGraph (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400CC8: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x401FAA: computeGraph (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400CC8: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 2097152 0x4010DE: betweennessCentrality (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 2097152 0x400E66: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n0: 1048576 0x400E4F: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 1048576 0x4012E6: betweennessCentrality (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 1048576 0x400E66: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 1048576 0x401317: betweennessCentrality (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 1048576 0x400E66: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 524292 0x401F36: computeGraph (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 524292 0x400CC8: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 524288 0x400F57: betweennessCentrality (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 524288 0x400E66: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 524288 0x4012CE: betweennessCentrality (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 524288 0x400E66: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 524288 0x4012FE: betweennessCentrality (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 524288 0x400E66: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n0: 15856 in 29 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=55
+#-----------
+time=106779198608
+mem_heap_B=19414516
+mem_heap_extra_B=12316
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=106779198640
+mem_heap_B=15220212
+mem_heap_extra_B=8276
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=106779198672
+mem_heap_B=13123060
+mem_heap_extra_B=8268
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=106779198704
+mem_heap_B=12074484
+mem_heap_extra_B=8260
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=106779198736
+mem_heap_B=11550196
+mem_heap_extra_B=8252
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=106779198768
+mem_heap_B=10501620
+mem_heap_extra_B=8244
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=106779198800
+mem_heap_B=10501420
+mem_heap_extra_B=8228
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=106779198832
+mem_heap_B=10501220
+mem_heap_extra_B=8212
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=106779198864
+mem_heap_B=10501212
+mem_heap_extra_B=8180
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=106779198928
+mem_heap_B=9976924
+mem_heap_extra_B=8172
+mem_stacks_B=0
+heap_tree=detailed
+n5: 9976924 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4194304 0x401F95: computeGraph (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400CC8: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x401FAA: computeGraph (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400CC8: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n0: 1048576 0x400E4F: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n1: 524292 0x401F36: computeGraph (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+  n0: 524292 0x400CC8: main (in /home/cb76/cb761223/larger_samples/ssca2/build/ssca2)
+ n0: 15448 in 36 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=65
+#-----------
+time=106779198981
+mem_heap_B=9971812
+mem_heap_extra_B=8156
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=106779199014
+mem_heap_B=9966696
+mem_heap_extra_B=8144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=106779199047
+mem_heap_B=9961580
+mem_heap_extra_B=8132
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=106779199079
+mem_heap_B=9961508
+mem_heap_extra_B=8116
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=106779199129
+mem_heap_B=8912932
+mem_heap_extra_B=8108
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=106779199162
+mem_heap_B=8388640
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=106779199195
+mem_heap_B=4194336
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=106779199228
+mem_heap_B=32
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=106779199260
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
