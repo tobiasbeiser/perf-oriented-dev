@@ -1,0 +1,38 @@
+{
+    "command": "/home/cb76/cb761223/larger_samples/npb_bt/build/npb_bt_w",
+    "number_of_runs_target": 3,
+    "number_of_runs_actual": 3,
+    "runs": [
+        {
+            "real": 3.03,
+            "user": 3.0,
+            "sys": 0.0,
+            "max_mem": 4592.0
+        },
+        {
+            "real": 3.02,
+            "user": 3.0,
+            "sys": 0.0,
+            "max_mem": 4536.0
+        },
+        {
+            "real": 3.01,
+            "user": 2.99,
+            "sys": 0.0,
+            "max_mem": 4428.0
+        }
+    ],
+    "mean": {
+        "real": 3.02,
+        "user": 2.9967,
+        "sys": 0.0,
+        "max_mem": 4518.6667
+    },
+    "variance": {
+        "real": 0.0001,
+        "user": 0.0,
+        "sys": 0.0,
+        "max_mem": 6949.3333
+    },
+    "optimization": "-Ofast"
+}

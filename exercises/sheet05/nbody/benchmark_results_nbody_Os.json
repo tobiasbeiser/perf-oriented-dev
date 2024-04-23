@@ -1,0 +1,38 @@
+{
+    "command": "/home/cb76/cb761223/small_samples/build/nbody",
+    "number_of_runs_target": 3,
+    "number_of_runs_actual": 3,
+    "runs": [
+        {
+            "real": 10.33,
+            "user": 10.31,
+            "sys": 0.0,
+            "max_mem": 1852.0
+        },
+        {
+            "real": 10.35,
+            "user": 10.32,
+            "sys": 0.0,
+            "max_mem": 1892.0
+        },
+        {
+            "real": 10.37,
+            "user": 10.35,
+            "sys": 0.0,
+            "max_mem": 1888.0
+        }
+    ],
+    "mean": {
+        "real": 10.35,
+        "user": 10.3267,
+        "sys": 0.0,
+        "max_mem": 1877.3333
+    },
+    "variance": {
+        "real": 0.0004,
+        "user": 0.0004,
+        "sys": 0.0,
+        "max_mem": 485.3333
+    },
+    "optimization": "-Os"
+}

@@ -1,0 +1,38 @@
+{
+    "command": "/home/cb76/cb761223/larger_samples/ssca2/build/ssca2 15",
+    "number_of_runs_target": 3,
+    "number_of_runs_actual": 3,
+    "runs": [
+        {
+            "real": 4.84,
+            "user": 4.82,
+            "sys": 0.0,
+            "max_mem": 8080.0
+        },
+        {
+            "real": 4.87,
+            "user": 4.85,
+            "sys": 0.0,
+            "max_mem": 8064.0
+        },
+        {
+            "real": 4.91,
+            "user": 4.89,
+            "sys": 0.0,
+            "max_mem": 8088.0
+        }
+    ],
+    "mean": {
+        "real": 4.8733,
+        "user": 4.8533,
+        "sys": 0.0,
+        "max_mem": 8077.3333
+    },
+    "variance": {
+        "real": 0.0012,
+        "user": 0.0012,
+        "sys": 0.0,
+        "max_mem": 149.3333
+    },
+    "optimization": "-O2"
+}

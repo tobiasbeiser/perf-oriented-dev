@@ -1,0 +1,38 @@
+{
+    "command": "/home/cb76/cb761223/small_samples/build/qap /home/cb76/cb761223/small_samples/qap/problems/chr15c.dat",
+    "number_of_runs_target": 3,
+    "number_of_runs_actual": 3,
+    "runs": [
+        {
+            "real": 14.1,
+            "user": 14.05,
+            "sys": 0.0,
+            "max_mem": 1540.0
+        },
+        {
+            "real": 14.03,
+            "user": 14.0,
+            "sys": 0.0,
+            "max_mem": 1556.0
+        },
+        {
+            "real": 14.01,
+            "user": 13.98,
+            "sys": 0.0,
+            "max_mem": 1540.0
+        }
+    ],
+    "mean": {
+        "real": 14.0467,
+        "user": 14.01,
+        "sys": 0.0,
+        "max_mem": 1545.3333
+    },
+    "variance": {
+        "real": 0.0022,
+        "user": 0.0013,
+        "sys": 0.0,
+        "max_mem": 85.3333
+    },
+    "optimization": "-O0"
+}

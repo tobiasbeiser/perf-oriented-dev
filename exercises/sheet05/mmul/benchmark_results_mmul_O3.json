@@ -1,0 +1,38 @@
+{
+    "command": "/home/cb76/cb761223/small_samples/build/mmul",
+    "number_of_runs_target": 3,
+    "number_of_runs_actual": 3,
+    "runs": [
+        {
+            "real": 2.2,
+            "user": 2.18,
+            "sys": 0.0,
+            "max_mem": 24608.0
+        },
+        {
+            "real": 1.98,
+            "user": 1.97,
+            "sys": 0.0,
+            "max_mem": 24612.0
+        },
+        {
+            "real": 1.99,
+            "user": 1.98,
+            "sys": 0.0,
+            "max_mem": 24588.0
+        }
+    ],
+    "mean": {
+        "real": 2.0567,
+        "user": 2.0433,
+        "sys": 0.0,
+        "max_mem": 24602.6667
+    },
+    "variance": {
+        "real": 0.0154,
+        "user": 0.014,
+        "sys": 0.0,
+        "max_mem": 165.3333
+    },
+    "optimization": "-O3"
+}
