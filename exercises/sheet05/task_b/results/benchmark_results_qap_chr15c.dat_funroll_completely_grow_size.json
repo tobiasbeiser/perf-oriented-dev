@@ -1,0 +1,26 @@
+{
+    "command": "/home/cb76/cb761223/small_samples/build/qap /home/cb76/cb761223/small_samples/qap/problems/chr15c.dat",
+    "number_of_runs_target": 1,
+    "number_of_runs_actual": 1,
+    "runs": [
+        {
+            "real": 0.0,
+            "user": 0.0,
+            "sys": 0.0,
+            "max_mem": 1084.0
+        }
+    ],
+    "mean": {
+        "real": 0.0,
+        "user": 0.0,
+        "sys": 0.0,
+        "max_mem": 1084.0
+    },
+    "variance": {
+        "real": 0.0,
+        "user": 0.0,
+        "sys": 0.0,
+        "max_mem": 1084.0
+    },
+    "optimization": "-funroll-completely-grow-size"
+}

@@ -1,0 +1,26 @@
+{
+    "command": "/home/cb76/cb761223/small_samples/build/mmul",
+    "number_of_runs_target": 1,
+    "number_of_runs_actual": 1,
+    "runs": [
+        {
+            "real": 2.01,
+            "user": 1.99,
+            "sys": 0.0,
+            "max_mem": 24544.0
+        }
+    ],
+    "mean": {
+        "real": 2.01,
+        "user": 1.99,
+        "sys": 0.0,
+        "max_mem": 24544.0
+    },
+    "variance": {
+        "real": 2.01,
+        "user": 1.99,
+        "sys": 0.0,
+        "max_mem": 24544.0
+    },
+    "optimization": "-fgcse-after-reload"
+}

@@ -1,0 +1,26 @@
+{
+    "command": "/home/cb76/cb761223/larger_samples/ssca2/build/ssca2 15",
+    "number_of_runs_target": 1,
+    "number_of_runs_actual": 1,
+    "runs": [
+        {
+            "real": 4.92,
+            "user": 4.9,
+            "sys": 0.0,
+            "max_mem": 8140.0
+        }
+    ],
+    "mean": {
+        "real": 4.92,
+        "user": 4.9,
+        "sys": 0.0,
+        "max_mem": 8140.0
+    },
+    "variance": {
+        "real": 4.92,
+        "user": 4.9,
+        "sys": 0.0,
+        "max_mem": 8140.0
+    },
+    "optimization": "-fsplit-paths"
+}

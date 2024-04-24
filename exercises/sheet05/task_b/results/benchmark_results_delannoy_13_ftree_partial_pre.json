@@ -1,0 +1,26 @@
+{
+    "command": "/home/cb76/cb761223/small_samples/build/delannoy 13",
+    "number_of_runs_target": 1,
+    "number_of_runs_actual": 1,
+    "runs": [
+        {
+            "real": 3.36,
+            "user": 3.34,
+            "sys": 0.0,
+            "max_mem": 1416.0
+        }
+    ],
+    "mean": {
+        "real": 3.36,
+        "user": 3.34,
+        "sys": 0.0,
+        "max_mem": 1416.0
+    },
+    "variance": {
+        "real": 3.36,
+        "user": 3.34,
+        "sys": 0.0,
+        "max_mem": 1416.0
+    },
+    "optimization": "-ftree-partial-pre"
+}

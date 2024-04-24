@@ -1,0 +1,26 @@
+{
+    "command": "/home/cb76/cb761223/small_samples/build/mmul",
+    "number_of_runs_target": 1,
+    "number_of_runs_actual": 1,
+    "runs": [
+        {
+            "real": 1.98,
+            "user": 1.97,
+            "sys": 0.0,
+            "max_mem": 24532.0
+        }
+    ],
+    "mean": {
+        "real": 1.98,
+        "user": 1.97,
+        "sys": 0.0,
+        "max_mem": 24532.0
+    },
+    "variance": {
+        "real": 1.98,
+        "user": 1.97,
+        "sys": 0.0,
+        "max_mem": 24532.0
+    },
+    "optimization": "-fversion-loops-for-strides"
+}
