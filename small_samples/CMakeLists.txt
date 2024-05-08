@@ -11,6 +11,8 @@ endif()
 
 add_executable(mmul mmul/mmul.c)
 
+add_executable(mmul_t mmul_t/mmul_t.c)
+
 add_executable(delannoy delannoy/delannoy.c)
 
 add_executable(nbody nbody/nbody.c)

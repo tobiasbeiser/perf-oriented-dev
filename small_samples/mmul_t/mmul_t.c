@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define S 1000
+#define S 2048
 #define N S
 #define M S
 #define K S
@@ -30,7 +30,28 @@ void freeMatrix(MATRIX matrix) {
 }
 
 
-int main(void) {
+int main(int argc, char*argv[]) {
+
+
+	int TILE_HEIGHT, TILE_WIDTH;
+
+	if (argc != 3)
+	{
+		fprintf(stderr, "Usage: %s TILE_HEIGHT TILE_WIDTH\n", argv[0]);
+		exit(EXIT_FAILURE);
+	}
+	
+
+	if (sscanf (argv[1], "%i", &TILE_HEIGHT) != 1) {
+    	fprintf(stderr, "error - not an integer");
+		exit(EXIT_FAILURE);
+	}
+	if (sscanf (argv[2], "%i", &TILE_WIDTH) != 1) {
+    	fprintf(stderr, "error - not an integer");
+		exit(EXIT_FAILURE);
+	}
+
+
 
 	// create the matrices
 	MATRIX A = createMatrix(N, M);
@@ -53,21 +74,22 @@ int main(void) {
 		}
 	}
 
-	// conduct multiplication with tiling
-	int TILE_WIDTH = 32;
-	int TILE_HEIGHT = 32;
-	for (int i=0; i<N; i+=TILE_HEIGHT) {
-		for (int j=0; j<K; j+=TILE_WIDTH) {
-			for (int ii=i; ii<MIN(i+TILE_HEIGHT, N); ii++) {
-				for (int jj=j; jj<MIN(j+TILE_WIDTH, K); jj++) {
+
+
+
+		// conduct multiplication
+	for (int i = 0; i < N; i += TILE_HEIGHT) {
+		for (int j = 0; j < K; j += TILE_WIDTH) {
+			for (int ii = i; ii < (i + TILE_HEIGHT < N ? i + TILE_HEIGHT : N); ii++) {
+				for (int jj = j; jj < (j + TILE_WIDTH < K ? j + TILE_WIDTH : K); jj++) {
 					TYPE sum = 0;
-					for (int k=0; k<M; k++) {
-						sum += A[ii][k] * B[k][jj];
-					}
-					C[ii][jj] = sum;
-				}
-			}
-		}
+					for (int k = 0; k < M; k++) {
+                    	sum += A[ii][k] * B[k][jj];
+                	}
+            	    C[ii][jj] = sum;
+        	    }
+    	    }
+	    }
 	}
 
 	// verify result

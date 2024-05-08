@@ -1,0 +1,11 @@
+{
+    "command": "/home/cb76/cb761223/small_samples/build/mmul_t 4096 8",
+    "results": {
+        "real": 184.68,
+        "user": 184.25,
+        "sys": 0.01,
+        "max_mem": 99684.0
+    },
+    "width": "8",
+    "height": "4096"
+}
