@@ -22,3 +22,4 @@ add_executable(loadprofile load_generator/loadprofile.c load_generator/loadutils
 add_executable(loadtest load_generator/loadtest.c load_generator/loadutils.c)
 
 add_executable(malloctest malloctest/malloctest.c)
+add_executable(malloctest_arena malloctest/malloctest_arena.c)
