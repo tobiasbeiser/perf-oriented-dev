@@ -1,0 +1,3 @@
+[submodule "tools/DataStructureBenchmark"]
+	path = tools/DataStructureBenchmark
+	url = git@github.com:tobiasbeiser/uibk-poc-datastructure-benchmark.git
