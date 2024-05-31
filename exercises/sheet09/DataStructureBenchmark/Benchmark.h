@@ -1,15 +1,12 @@
 #pragma once
-#include "Elements.h"
-#include <chrono>
-template<typename T>
-class Benchmark
+#include "BenchmarkBase.h"
+template <typename T>
+class Benchmark : public BenchmarkBase
 {
 public:
-	Benchmark(int runtime) : runtime(runtime) {}
-	virtual void runBenchmark(int collectionSize, int readPercentage, int insertPercentage) = 0;
+	Benchmark(int runtime, int collectionSize, int readPercentage, int insertPercentage)
+		: BenchmarkBase(runtime, collectionSize, readPercentage, insertPercentage) {}
 	virtual ~Benchmark() = default;
-
-protected:
-	int runtime;
+	virtual void runBenchmark() override= 0;
 
 };

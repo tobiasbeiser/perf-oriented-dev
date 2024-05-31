@@ -1,56 +1,65 @@
 #include "ArrayBenchmark.h"
-#include <iostream>
 #include <vector>
 #include <memory>
 
-template void ArrayBenchmark<Element8Bytes>::runBenchmark(int collectionSize, int readPercentage, int insertPercentage);
-template void ArrayBenchmark<Element512Bytes>::runBenchmark(int collectionSize, int readPercentage, int insertPercentage);
-template void ArrayBenchmark<Element8MB>::runBenchmark(int collectionSize, int readPercentage, int insertPercentage);
+template void ArrayBenchmark<Element8Bytes>::runBenchmark();
+template void ArrayBenchmark<Element512Bytes>::runBenchmark();
+template void ArrayBenchmark<Element8MB>::runBenchmark();
 
-template<typename T>
-void ArrayBenchmark<T>::runBenchmark(int collectionSize, int readPercentage, int insertPercentage)
+template <typename T>
+void ArrayBenchmark<T>::runBenchmark()
 {
-	size_t operations = 0;
-	size_t readOperations = 0;
-	size_t insertOperations = 0;
-	std::vector<T> collection(collectionSize);
+	this->resetCounters();
+	std::vector<T> collection(this->collectionSize);
 	auto end = std::chrono::high_resolution_clock::now() + std::chrono::seconds(this->runtime);
 	bool run = true;
-
 	while (run)
 	{
-		for (int i = 0; i < collectionSize; i++)
+		for (int i = 0; i < this->collectionSize;)
 		{
 			if (std::chrono::high_resolution_clock::now() > end)
 			{
 				run = false;
 				break;
 			}
-			if (operations % readPercentage == 0) {
-				//read
+			if (this->insertPercentage > 0)
+			{
+				// insert
+				T newElement = T();
+				collection.push_back(newElement);
+				this->insertDeleteOperations++;
+				i++;
+			}
+
+			for (int k = 0; k < this->padding; k++)
+			{
+				// read
 				char data = collection[i].data[0];
 				data++;
-				//write
+				i++;
+				this->readWriteOperations++;
+				// write
 				collection[i].data[0] = 0;
-				readOperations++;
+				i++;
+				this->readWriteOperations++;
 			}
-			if (insertPercentage != 0 && operations % insertPercentage == 0)
+
+			// delete
+			if (this->insertPercentage > 0)
 			{
-				//insert
-				T newElement = T();
-				collection.push_back(newElement	);
-
-				//delete
 				collection.pop_back();
-				insertOperations++;
+				i++;
+				this->insertDeleteOperations++;
 			}
-
-			operations++;
 		}
 	}
-	std::cout << "Array Benchmark:" << std::endl;
-	std::cout << "Operations: " << operations << std::endl;
-	std::cout << "Read/Write Operations: " << readOperations << std::endl;
-	std::cout << "Insert/Delete Operations: " << insertOperations << std::endl;
-
+	this->printResults();
+	// std::cout << "Padding: " << padding << std::endl;
+	// std::cout << "Padding: " << padding << std::endl;
+	// std::cout << readWriteOperations << " read operations" << std::endl;
+	// std::cout << insertDeleteOperations << " insert operations" << std::endl;
+	// std::cout << "Array Benchmark:" << std::endl;
+	// std::cout << readWriteOperations + insertDeleteOperations << " / " << operations << std::endl;
+	// std::cout << "Read/Write Operations: " << readWriteOperations << std::endl;
+	// std::cout << "Insert/Delete Operations: " << insertDeleteOperations << std::endl;
 }

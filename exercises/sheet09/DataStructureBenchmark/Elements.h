@@ -1,4 +1,5 @@
 #pragma once
+
 struct Element8Bytes
 {
 	char data[8];

@@ -1,9 +1,10 @@
 #pragma once
 #include "Benchmark.h"
-template<typename T>
+template <typename T>
 class ListBenchmark : public Benchmark<T>
 {
 public:
-	ListBenchmark(int runtime) : Benchmark<T>(runtime) {}
-	void runBenchmark(int collectionSize, int readPercentage, int insertPercentage) override;
+	ListBenchmark(int runtime, int collectionSize, int readPercentage, int insertPercentage) 
+	: Benchmark<T>(runtime, collectionSize, readPercentage, insertPercentage) {}
+	void runBenchmark() override;
 };

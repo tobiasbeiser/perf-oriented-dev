@@ -15,3 +15,4 @@ larger_samples/npb_bt/build/
 larger_samples/npb_bt/tracy/
 *.zip
 exercises/sheet06/sheet06_results.tar.gz
+exercises/sheet09/DataStructureBenchmark/build/*
